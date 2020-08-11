@@ -5,9 +5,9 @@ spring:
   datasource:
     platform: mysql
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/sample?useSSL=false&characterEncoding=UTF-8
-    username: root
-    password: passw0rd
+    url: jdbc:mysql://192.168.10.125:3306/sample?useSSL=false&characterEncoding=UTF-8
+    username: musr10
+    password: mAdm2020
   resources:
     # キャッシュの無効化
     cache:
